@@ -1,0 +1,8 @@
+Steps to add the validation and see it in the github.
+1.Goto git hub
+1.Repository
+3. setting
+4. pages
+5.Click the arrow
+6.select main
+7. click save then you will see this https://zebib.github.io/zebib/ url in the top
