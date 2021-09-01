@@ -1,0 +1,31 @@
+.image{
+    border-radius: 50%;
+}
+.container{
+    /* float: left;
+    clear: left; */
+    text-align: center;
+}
+h1{
+    background-color: rgb(196, 196, 124);
+    flood-color: aqua;
+    text-align: center;
+    margin-top:auto;
+}
+body {
+    
+    background:lime;
+    animation: mymove 5s infinite;;
+  }
+  @keyframes mymove {
+    from {background-color: lime;}
+    to {background-color: blue;}
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+    border: 1px solid black;
+    margin: 25px 50px 75px 100px;
+    background-color: lightblue;
+  }
