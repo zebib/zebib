@@ -1,21 +1,50 @@
 <!DOCTYPE html> 
-<html> 
+<html lang="en"> 
 <head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="grade.css" rel="stylesheet" />
 <title>Retrieve Grade</title> 
 </head> 
 <body> 
-<h1>Retrieve your grade</h1>
-<p>Name: ...</p> 
+
+<!-- <p>Name: ...</p> 
 <p>Student ID:616235</p>
-Get Grade!
-<div class="dropdown">
-    <button class=dropdownbtn>Assignments</button>
-    <div class="dropdowncontent">
-        <a href="#">lab0</a>
-        <a href="#">lab1</a>
-        <a href="#">lab2</a>
-        <a href="#">lab3</a>
+Get Grade! -->
+<form accept="http://mumstudents.org/params.php" method="POST">
+   
+    <div class="container">
+<div id="hone">
+</h1>Retrieve your grade</h1>
+</div>
+       <br>
+<label for="name">Name: </label>
+<input type="text" placeholder="name" size="12">
+<label for="name">ID:     </label>
+<input type="text" placeholder="id" size="12"><br><br>
+<label for="assigments">Assigments : </label>
+<select name="dropdown" id="faveitem">
+    <option value="lab0">lab00</option>
+    <option value="lab1">lab01</option>
+    <option value="lab2">lab02</option>
+    <option value="lab3">lab03</option>
+</select><br><br>
+<label for="radio">Student's Entry</label><br>
+<input type="radio" id="dec" value="dec" name="december" checked>
+<label for="radio">Dec</label><br>
+<input type="radio" id="Feb" value="feb" name="February">
+<label for="radio">Feb: </label><br>
+<input type="radio" id="may" value="may" name="may">
+<label for="radio">May</label><br>
+<input type="radio" id="aug" value="aug" name="aug">
+<label for="radio">August</label><br><br>
+<label for="checkbos">Confirm</label><br>
+<input type="checkbox" name="checkb" id="favicon" name="checkb"><br>
+<button type="submit" id="btn">Get Grade</button>
+
     </div>
-</div> 
+</form>
+
 </body> 
 </html>
