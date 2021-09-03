@@ -1,9 +1,10 @@
 .image{
     border-radius: 50%;
+    vertical-align:middle
+
 }
 .container{
-    /* float: left;
-    clear: left; */
+    
     text-align: center;
 }
 h1{
@@ -12,20 +13,47 @@ h1{
     text-align: center;
     margin-top:auto;
 }
-body {
-    
-    background:lime;
-    animation: mymove 5s infinite;;
+ body {
+     border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 30 round;
+    /* background:lime;
+    animation: mymove 5s infinite; */
   }
+  /*
   @keyframes mymove {
     from {background-color: lime;}
     to {background-color: blue;}
-  }
+  } */
   
   p {
-    font-family: verdana;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: repeating-linear-gradient(30deg, #4d9f0c, #9198e5, #4d9f0c 20px) stretch 60;
+    /* font-family: verdana;
     font-size: 20px;
-    border: 1px solid black;
+    border: 1px dashed black;
     margin: 25px 50px 75px 100px;
-    background-color: lightblue;
+    background-color: lightblue; */
   }
+.mood1{
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: repeating-linear-gradient(30deg, #4d9f0c, #9198e5, #4d9f0c 20px) stretch 40;
+}
+.movie{
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: linear-gradient(#f6b73c, #4d9f0c) 20;
+}
+.mumclases{
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: repeating-linear-gradient(30deg, #4d9f0c, #9198e5, #4d9f0c 20px) stretch 10;
+}
+#fun{
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+}
+}

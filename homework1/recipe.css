@@ -10,6 +10,11 @@ body{
     background-attachment: fixed;
     color: #404040;        
 }
+img{
+    border-radius: 50%;
+    vertical-align:middle
+}
+
 
 h1, h2{    
     color: #A4A400;
