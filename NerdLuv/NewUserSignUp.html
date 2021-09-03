@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="signUp.css" rel="stylesheet" />
+    <title>SignUp</title>
+</head>
+<body>
+    <h1>HTML FORMS LAB</h1>
+    <form action="http://mumstudents.org/params.php" method="POST">
+
+        <div>
+            <label for="name"> Name: </label>
+            <input type="text" placeholder="name" size="8"><br><br>
+            <label for="gender"> Gender : </label>
+            <input type="radio" id="male" name="fav_lang" value="male"><label for="male">Male</label>
+        
+            <input type="radio" id="radio2" name="fav_lang" value="female" checked><label fro="female">Female</label><br><br>
+
+            <label for="age">Age :</label>
+            <input type="text" placeholder="age" size="6"><br><br>
+            <label for="personality">Personality type :</label>
+            <input type="text" placeholder="personality" size="6"><a href="http://www.humanmetrics.com/cgi-win/jtypes2.asp">(Don't Know Your Type?)</a><br><br>
+            <label for="os">Favorite Os :</label>
+            <select name="dropdown" id="drop">
+            <option selected>windows</option>
+            <option>Mac os X</option>
+            <option>linux</option>
+        </select>
+          
+            <input type="text" placeholder="favos"  size="6"><br><br>
+            <label for="seeking">Seeking Age :</label>
+            <input type="text" placeholder="max" size="6">
+            <label for="to">to</label>
+            <input type="text" placeholder="min" size="6"><br><br>
+            <button type="button">Sign Up</button>
+    </div>
+    </form>
+    <div class="footer">
+        <p id="validator">
+       <a href="https://validator.w3.org/check/referer">
+           <img alt="Validate" src="w3c-html.png"/>
+       </a>
+       <a href="https://jigsaw.w3.org/css-validator/check/referer">
+           <img alt="Valid CSS!" src="vcss.gif"/>
+       </a>
+   </p>  </div>
+</body>
+</html>
