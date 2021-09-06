@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>decoratemytext</title>
+    <link rel="stylesheet" href="decoratemytext.css">
+    <script src="decoratemytext.js"></script>
+</head>
+<body>
+    <h1>Text Decorator</h1>
+    <div class="imgcontainer"></div>
+<img src="images/decorated.gif" alt="decorated image">
+    
+<fieldset>
+<legend>Text</legend>
+
+<textarea cols="30" id="textarea" placeholder="Type your text here ..." rows="4"></textarea>
+</fieldset>
+<fieldset>
+<legend>Decoration</legend>
+<label for="button"></label>
+<input onclick="interval()" type="button" value="Bigger Decorations !" /><br><br>
+<input type="checkbox" onchange="boldText()" id="bling" /> 
+<label for="checkbox1" >Bling</label>
+</fieldset><br>
+
+    <div id="validation">
+        <a href="https://validator.w3.org/check/referer">
+            <img alt="Valid HTML!" src="images/w3c-html.png"/>
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img alt="Valid CSS!" src="images/w3c-css.png"/>
+        </a>
+        <a href="https://webster.cs.washington.edu/jslint/?referer">
+            <img src="images/w3c-js.png" alt="JS CHECK!" />
+        </a>
+    
+    </div>
+</body>
+</html>
