@@ -11,9 +11,10 @@
     <h1>HTML FORMS LAB</h1>
     <form action="http://mumstudents.org/params.php" method="POST">
 
-        <div>
+          <fieldset>
+        <legend><input type="text" value="new user SignUp :" size="12"></legend>
             <label for="name"> Name: </label>
-            <input type="text" placeholder="name" size="8"><br><br>
+            <input type="text" placeholder="name" size="12"><br><br>
             <label for="gender"> Gender : </label>
             <input type="radio" id="male" name="fav_lang" value="male"><label for="male">Male</label>
         
@@ -35,10 +36,10 @@
             <input type="text" placeholder="max" size="6">
             <label for="to">to</label>
             <input type="text" placeholder="min" size="6"><br><br>
-            <button type="button">Sign Up</button>
+            <button type="button" id="btn"> Sign Up </button>
             <a href="../lab00/index.html">      
                 <h6>Back</h6></a>
-    </div>
+            </fieldset>
     </form>
     <div class="footer">
         <p id="validator">
