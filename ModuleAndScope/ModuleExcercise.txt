@@ -136,21 +136,26 @@ var Module = (function(){
 	let getAge = function( ){ return age;}
 	let getSalary = function ( ){ return salary;}
 	let getName = function ( ){ return name;}
+
 	let setAge = function (newAge){ age = newAge;}
 	let setSalary = function (newSalary){salary = newSalary;}
 	let setName = function (newName){name = newName;}
+
 	let increaseSalary = function (percentage){   // uses private getSalary( ) 
 		let newSalary = getSalary() + (getSalary()*percentage);
 		setSalary(newSalary);
 	}
+
 	let incrementAge = function ( ){   // uses private getAge( )
 		let newAge = getAge()+1;
 		setAge(newAge);
 	}
+
 	return{
 		setAge: setAge,
 		setSalary: setSalary,
 		setName: setName,
+
 		increaseSalary: increaseSalary,
 		incrementAge: incrementAge
 }
@@ -198,7 +203,8 @@ var Module = (function(){
 	return Employee;
 })();
  
-//13. Write a few Javascript instructions to extend the Module of Question 10 to have a public address field and public methods setAddress(newAddress) and getAddress( ). 
+//13. Write a few Javascript instructions to extend the Module of Question 10 to have a public address field and public methods 
+setAddress(newAddress) and getAddress( ). 
 Module.address = null;
 Module.getAddress = function(){
 	return Module.address;
@@ -222,7 +228,7 @@ promise.then(val => alert("Success: "+ val))
 //15. What is the output of the following code? 
  
 const promise = new Promise((resolve, reject) => {  
-	resolve("Hattori");  
+	resolve("purple");  
 	setTimeout(()=> reject("Yoshi"), 500); 
 }); 
 
@@ -249,8 +255,9 @@ promise.then(function(data) {
 		return job(false);})        
 	.catch(function(error) {                
 		console.log(error);  // => error            
-		return 'Error caught'; 
+		return 'Error caught'; //error caught
 });
 
 //=> success
-//=> error            
+//=> error    
+//=>Error caught        
