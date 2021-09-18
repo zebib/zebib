@@ -22,7 +22,7 @@ exports.displays=function(req,res,vals){
           res.write(String(result));
     res.write("</p>");
     res.write(
-        "<a href='https://zebib.github.io/zebib/zebib/blob/main/NodeJs/Calculator/calculator.html'>Another calculation</a>"
+        "<a href=' https://zebib.github.io/zebib/NodeJs/Calculator/calculator.html'>Another calculation</a>"
       );
     res.write("</body>");
     res.write("</html>");
