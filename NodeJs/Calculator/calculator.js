@@ -16,10 +16,11 @@ exports.displays=function(req,res,vals){
     res.write("<!DOCTYPE html>");
     res.write("<html>");
     res.write("<head><meta charset=\"utf-8\"/>"); 
-    res.write("<title>Calculator Web Site</title>"); res.write("</head>");
+    res.write("<title>Calculator Web Site</title>");
+    res.write("</head>");
     res.write("<body>");
     res.write("<p style=\"background-color:green\" ; style=\"font:14pt bold\";>The result is: ");
-          res.write(String(result));
+    res.write(String(result));
     res.write("</p>");
     res.write(
         "<a href=' https://zebib.github.io/zebib/NodeJs/Calculator/calculator.html'>Another calculation</a>"
